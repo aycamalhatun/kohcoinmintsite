@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KohCoin - One Coin, Many Islands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero">
+    <h1>One Coin, Many Islands</h1>
+    <button class="mint-button" onclick="shakeButton(this)">Mint Now</button>
+    <p class="price-text">0.001 BNB → 888 KOH</p>
+  </section>
+
+  <section class="about">
+    <h2>About KohCoin</h2>
+    <p>KohCoin is a tropical, community-driven cryptocurrency project, inspired by the vibrant culture of Thai islands. Own your slice of paradise!</p>
+  </section>
+
+  <section class="tokenomics">
+    <h2>Tokenomics</h2>
+    <div class="token-diagram">
+      <div class="circle">Supply</div>
+      <div class="circle">Airdrop</div>
+      <div class="circle">Staking</div>
+    </div>
+  </section>
+
+  <section class="nft-showcase">
+    <h2>Tropical NFTs</h2>
+    <div class="nft-cards">
+      <div class="nft-card">Koh Phi Phi</div>
+      <div class="nft-card">Koh Tao</div>
+      <div class="nft-card">Koh Samui</div>
+    </div>
+  </section>
+
+  <section class="how-to-mint">
+    <h2>How to Mint</h2>
+    <div class="steps">
+      <div class="step">1. Connect Wallet</div>
+      <div class="step">2. Mint KohCoin</div>
+      <div class="step">3. Join the Island Life</div>
+    </div>
+  </section>
+
+  <footer>
+    <p><img src="palm-icon.png" alt="Palm Tree" class="palm-icon"> Own the Island Spirit.</p>
+  </footer>
+
+  <script>
+    function shakeButton(button) {
+      button.classList.add('shake');
+      setTimeout(() => button.classList.remove('shake'), 500);
+    }
+  </script>
+
+</body>
+</html>
